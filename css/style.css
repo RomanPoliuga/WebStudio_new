@@ -18,6 +18,32 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
+h1, h2, h3, h4, p {
+  margin: 0;
+  }
+  ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  }
+  
+  address {
+  font-style: normal;
+  }
+.container{
+  width: 1200px;
+  padding: 0 15px;
+  outline: 2px dashed red;
+  margin: 0 auto;
+}
+.features{
+  padding-top:70px ;
+  padding-bottom: 94px;
+}
+.header{
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -54,6 +80,8 @@ a {
   color: #212121;
 }
 .hero-title {
+  padding-top:200px;
+  padding-bottom: 200px;
   font-weight: 900;
   font-size: 44px;
   line-height: 136%;
@@ -62,6 +90,7 @@ a {
   text-align: center;
 }
 .hero-btn {
+  padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
   line-height: 187%;
@@ -69,6 +98,10 @@ a {
   text-align: center;
 }
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  margin-bottom:30px; 
   background-color: #2f303a;
 }
 .hero-title {
@@ -80,6 +113,9 @@ a {
 .hero-btn {
   background-color: #5ab3fc;
 }
+.features{
+  padding-top: 94px;
+}
 .features-description {
   font-weight: 400;
   font-size: 14px;
@@ -88,6 +124,7 @@ a {
   color: #757575;
 }
 .features-header {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -95,6 +132,7 @@ a {
   color: #212121;
 }
 .occupation-title {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
@@ -105,6 +143,8 @@ a {
   color: #f5f4fa;
 }
 .team-title {
+  margin-bottom: 50px;
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
@@ -112,6 +152,8 @@ a {
   color: #212121;
 }
 .team-name {
+  margin-bottom: 10px;
+  margin-top:30px;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
@@ -126,9 +168,12 @@ a {
   color: #757575;
 }
 .footer {
+  padding-top: 60px; 
+  padding-bottom:60px ;
   background-color: #2f303a;
 }
 .footer-logo {
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
@@ -137,6 +182,7 @@ a {
   color: #ffffff;
 }
 .footer-adress {
+  margin-bottom:9px ;
   font-weight: 400;
   font-size: 14px;
   line-height: 171%;
@@ -144,6 +190,7 @@ a {
   color: #ffffff;
 }
 .footer-contacts {
+  margin-bottom:9px ;
   font-weight: 400;
   font-size: 14px;
   line-height: 171%;
@@ -158,13 +205,17 @@ a {
   color: #757575;
 }
 .portfolio-hero-title {
+  padding-top: 94px; 
+  padding-bottom:34px ;
   font-weight: 700;
   font-size: 18px;
   line-height: 200%;
   letter-spacing: 0.06em;
   color: #212121;
 }
-.portfolio-hero-btn {
+.portfolio-hero-btn { 
+  padding-top: 20px; 
+  padding-bottom:4px ;
   font-weight: 500;
   font-size: 16px;
   line-height: 162%;
