@@ -200,6 +200,7 @@ a {
   letter-spacing: 0.03em;
 }
 .footer-logo {
+  margin-bottom:20px ; 
   color: #ffffff;
 }
 .footer-adress {
@@ -209,6 +210,13 @@ a {
   line-height: 171%;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+.link-footer-contacts{
+  display: block;
+}
+.link-footer-contacts-mailto{
+  margin-bottom:9px ;
+  display: block;
 }
 .footer-contacts {
   margin-bottom:9px ;
