@@ -257,6 +257,19 @@ a {
 .portfolio-hero-btn {
   background-color: #f5f4fa;
 }
+.portfolio-hero-list-nav{
+  display: flex;
+  margin-bottom:34px;
+  justify-content: center;
+}
+
+.portfolio-hero-list{
+  display: flex;
+  gap: 30px;
+}
+.portfolio-hero-list-nav-child{
+  margin-right: 8px;
+}
 .portfolio-hero-btn:hover,
 .portfolio-hero-btn:focus {
   background-color: #2196f3;
