@@ -267,6 +267,7 @@ a {
 .portfolio-hero-list{
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
 }
 .portfolio-hero-list-nav-child{
   margin-right: 8px;
