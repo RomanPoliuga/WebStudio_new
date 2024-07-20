@@ -161,6 +161,8 @@ a {
   color: #212121;
 }
 .team {
+  padding-top: 94px;
+  padding-bottom: 94px;
   color: #f5f4fa;
 }
 .team-title {
@@ -181,12 +183,41 @@ a {
   text-align: center;
   color: #212121;
 }
+.team .hero-list-child{
+  padding-bottom: 30px;
+}
 .team-position {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.03em;
   text-align: center;
   color: #757575;
+}
+.socials-list{
+  display: flex;
+  margin-top: 16px;
+  gap: 10px;
+  justify-content: center;
+}
+.socials-list-item{
+  width: 44px;
+  height: 44px;
+}
+.socials-list_icon{
+  width: 20px;
+  fill: currentColor;
+  fill: #757575;
+}
+.socials-list-link{
+  border-radius:50% ;
+  color: #757575;
+}
+.socials-list-link:hover{
+  background-color: #2196F3;
+  color: #ffffff;
+}
+.socials-list-link:hover .socials-list_icon{
+  fill: #ffffff;
 }
 .footer {
   padding-top: 60px; 
