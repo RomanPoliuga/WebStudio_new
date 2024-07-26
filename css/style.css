@@ -206,19 +206,24 @@ a {
 .socials-list_icon{
   width: 20px;
   fill: currentColor;
-  fill: #757575;
+  /* fill: #757575; */
 }
 .socials-list-link{
-  border-radius:50% ;
-  color: #757575;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+ color: #757575; 
 }
 .socials-list-link:hover{
   background-color: #2196F3;
   color: #ffffff;
 }
-.socials-list-link:hover .socials-list_icon{
-  fill: #ffffff;
-}
+/* .socials-list-link:hover .socials-list_icon{ */
+  /* fill: #ffffff; */
+/* } */
 .footer {
   padding-top: 60px; 
   padding-bottom:60px ;
