@@ -39,10 +39,6 @@ h1, h2, h3, h4, p {
   outline: 2px dashed red;
   margin: 0 auto;
 }
-.features{
-  padding-top:70px ;
-  padding-bottom: 94px;
-}
 .header{
   
   padding-top: 24px;
@@ -94,6 +90,19 @@ a {
 .header-nav-link {
   color: #212121;
 }
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width:1600px ;
+  background-image: url("../images/background-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin-bottom:30px; 
+  background-color: #2f303a;
+}
 .hero-title {
   padding-top:200px;
   padding-bottom: 200px;
@@ -112,17 +121,7 @@ a {
   letter-spacing: 0.06em;
   text-align: center;
 }
-.hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  text-align: center;
-  margin-bottom:30px; 
-  background-color: #2f303a;
-}
 .hero-title {
-  color: #ffffff;
-}
-.hero-btn {
   color: #ffffff;
 }
 .hero-list{
@@ -132,10 +131,12 @@ a {
   margin-right: 30px;
 }
 .hero-btn {
+  color: #ffffff;
   background-color: #5ab3fc;
 }
 .features{
-  padding-top: 94px;
+  padding-top:70px ;
+  padding-bottom: 94px;
 }
 .features-description {
   font-weight: 400;
@@ -163,7 +164,7 @@ a {
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
-  color: #f5f4fa;
+  color: #F5F4FA;
 }
 .team-title {
   margin-bottom: 50px;
@@ -185,6 +186,8 @@ a {
 }
 .team .hero-list-child{
   padding-bottom: 30px;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 0 0 4px 4px;
 }
 .team-position {
   font-weight: 400;
@@ -215,15 +218,50 @@ a {
   width: 44px;
   height: 44px;
   border-radius: 50%;
- color: #757575; 
+ color: #AFB1B8; 
 }
 .socials-list-link:hover{
   background-color: #2196F3;
   color: #ffffff;
 }
-/* .socials-list-link:hover .socials-list_icon{ */
-  /* fill: #ffffff; */
-/* } */
+.customers{
+padding-top: 94px;
+padding-bottom: 94px;
+}
+.customers-title{
+margin-bottom: 50px;
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 42.19px;
+letter-spacing: 0.03em;
+text-align: center;
+}
+.customers-list{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+  
+.customers-list-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:170px ;
+  height:92px ;
+  border: 1px solid #afb1b8;
+ border-radius: 4px;
+color: #AFB1B8;
+}
+.customers-list-link:hover{
+ color: #2196F3;
+ border: 1px solid #2196F3;
+}
+.customers-list_icon{
+  width: 106px;
+  height: 60px;
+  fill: currentColor;
+}
 .footer {
   padding-top: 60px; 
   padding-bottom:60px ;
@@ -261,6 +299,42 @@ a {
   line-height: 171%;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.socials-box{
+  margin-left: 70px;
+}
+.footer-socials-text{
+  margin-bottom: 20px;
+  font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 16.41px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #ffffff;
+}
+.footer-socials-list{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.footer-list-link{
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+border-radius:50% ;
+background-color: rgba(255, 255, 255, 0.10);
+
+}
+.footer-list-link:hover{
+  background-color: #2196f3;
+}
+.footer-socials-list_icon{
+  fill: #fff;
+  width: 20px;
+  height: 20px;
 }
 .portfolio-hero-description {
   font-weight: 400;
