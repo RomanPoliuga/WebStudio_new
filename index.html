@@ -58,7 +58,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ<br />ВАШОГО БІЗНЕСУ</h1>
-          <button type="submit" class="hero-btn">ЗАМОВИТИ ПОСЛУГУ</button>
+          <button type="submit" class="hero-btn" data-modal-open>ЗАМОВИТИ ПОСЛУГУ</button>
         </div>
       </section>
       <section class="features">
@@ -404,5 +404,26 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+      <button class="close-btn" data-modal-close>x</button>
+      <p>Залиште свої дані, ми вам передзвонимо</p>
+      <form class="modal-form">
+        <div class="modal-field">
+          <label class="modal-label">ім'я<input type="text" class="modal-input"></label>
+        </div>
+        <div class="modal-field">
+          <label class="modal-label">телефон<input type="tel" class="modal-input"></label>
+        </div>
+        <div class="modal-field">
+          <label class="modal-label">Пошта<input type="email" class="modal-input"></label>
+        </div>
+        <div class="modal-field">
+          <label class="modal-label">Коментар<textarea  class="modal-textarea"></textarea></label>
+        </div>
+      </form>
+      </div>
+      </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
