@@ -34,14 +34,11 @@
                 >Портфоліо</a
               >
             </li>
-            <li><a href="#" class="link header-nav-link"> 
-              
-              Контакти</a></li>
+            <li><a href="#" class="link header-nav-link"> Контакти</a></li>
           </ul>
         </nav>
         <ul class="flex contacts-list">
           <li>
-
             <a
               href="mailto:info@devstudio.com"
               class="link header-contacts-link"
@@ -52,11 +49,11 @@
             >
           </li>
           <li>
-            <a href="tel:+380961111111" class="link header-contacts-link"
-              > <svg class="socials-list_icon" weight="16px" height="12px">
+            <a href="tel:+380961111111" class="link header-contacts-link">
+              <svg class="socials-list_icon" weight="16px" height="12px">
                 <use href="./images/symbol-defs.svg#icon-smartphone"></use>
               </svg>
-            +380961111111</a
+              +380961111111</a
             >
           </li>
         </ul>
@@ -67,7 +64,9 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ<br />ВАШОГО БІЗНЕСУ</h1>
-          <button type="submit" class="hero-btn" data-modal-open>ЗАМОВИТИ ПОСЛУГУ</button>
+          <button type="submit" class="hero-btn" data-modal-open>
+            ЗАМОВИТИ ПОСЛУГУ
+          </button>
         </div>
       </section>
       <section class="features">
@@ -367,44 +366,28 @@
           <ul class="footer-socials-list">
             <li class="footer-socials-list-item">
               <a href="./" class="footer-list-link">
-                <svg
-                  class="footer-socials-list_icon"
-                  
-                  height="20px"
-                >
+                <svg class="footer-socials-list_icon" height="20px">
                   <use href="./images/symbol-defs.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-socials-list-item">
               <a href="./" class="footer-list-link">
-                <svg
-                  class="footer-socials-list_icon"
-                  
-                  height="20px"
-                >
+                <svg class="footer-socials-list_icon" height="20px">
                   <use href="./images/symbol-defs.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-socials-list-item">
               <a href="./" class="footer-list-link">
-                <svg
-                  class="footer-socials-list_icon"
-                  
-                  height="20px"
-                >
+                <svg class="footer-socials-list_icon" height="20px">
                   <use href="./images/symbol-defs.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-socials-list-item">
               <a href="./" class="footer-list-link">
-                <svg
-                  class="footer-socials-list_icon"
-                  
-                  height="20px"
-                >
+                <svg class="footer-socials-list_icon" height="20px">
                   <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -412,49 +395,73 @@
           </ul>
         </div>
         <div class="footer-form-box">
-        <p class="form-text"> Підпишіться на розсилку</p>
-            <form class="footer-form">
-            <input type="text" placeholder="Email" class="form-input"><button type="submit" class="form-btn">ПІДПИСАТИСЯ<img src="./images/plane.png" alt="паперовий літак" class="form-img"></button>
-            </form>
-          </div>
+          <p class="form-text">Підпишіться на розсилку</p>
+          <form class="footer-form">
+            <input type="text" placeholder="Email" class="form-input" /><button
+              type="submit"
+              class="form-btn"
+            >
+              ПІДПИСАТИСЯ<img
+                src="./images/plane.png"
+                alt="паперовий літак"
+                class="form-img"
+              />
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-      <button class="close-btn" data-modal-close>
-        <svg class="modal-list_icon-btn" weight="18px" height="18px">
-        <use href="./images/symbol-defs.svg#icon-close-black"></use>
-      </svg>
-    </button>
-      <p class="modal-text">Залиште свої дані, ми вам передзвонимо</p>
-      <form class="modal-form">
-        <div class="modal-field">
-          <label class="modal-label">
-            <svg class="modal-list_icon" weight="18px" height="18px">
-            <use href="./images/symbol-defs.svg#icon-person-black"></use>
-          </svg>Ім'я<input type="text" class="modal-input" >
+        <button class="close-btn" data-modal-close>
+          <svg class="modal-list_icon-btn" weight="18px" height="18px">
+            <use href="./images/symbol-defs.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <p class="modal-text">Залиште свої дані, ми вам передзвонимо</p>
+        <form class="modal-form">
+          <div class="modal-field">
+            <label class="modal-label">
+              <svg class="modal-list_icon" weight="18px" height="18px">
+                <use
+                  href="./images/symbol-defs.svg#icon-person-black"
+                ></use></svg
+              >Ім'я<input type="text" class="modal-input" />
             </label>
-        </div>
-        <div class="modal-field">
-          <label class="modal-label">
-            <svg class="modal-list_icon" weight="18px" height="18px">
-              <use href="./images/symbol-defs.svg#icon-phone-black"></use>
-            </svg>
-            телефон<input type="tel" class="modal-input"></label>
-        </div>
-        <div class="modal-field">
-          <label class="modal-label">
-            <svg class="modal-list_icon" weight="18px" height="18px">
-              <use href="./images/symbol-defs.svg#icon-email-black"></use>
-            </svg>
-            Пошта<input type="email" class="modal-input"></label>
-        </div>
-          <label class="modal-label">Коментар<textarea  class="modal-textarea" placeholder="Введіть текст"></textarea></label>
-          <label class="policy-label"><input type="checkbox" class="modal-checkbox "><span class="policy-span">Погоджуюся з розсилкою та приймаю  <a href="./" class="policy-link"> Умови договору</a></span></label>
+          </div>
+          <div class="modal-field">
+            <label class="modal-label">
+              <svg class="modal-list_icon" weight="18px" height="18px">
+                <use href="./images/symbol-defs.svg#icon-phone-black"></use>
+              </svg>
+              телефон<input type="tel" class="modal-input"
+            /></label>
+          </div>
+          <div class="modal-field">
+            <label class="modal-label">
+              <svg class="modal-list_icon" weight="18px" height="18px">
+                <use href="./images/symbol-defs.svg#icon-email-black"></use>
+              </svg>
+              Пошта<input type="email" class="modal-input"
+            /></label>
+          </div>
+          <label class="modal-label"
+            >Коментар<textarea
+              class="modal-textarea"
+              placeholder="Введіть текст"
+            ></textarea>
+          </label>
+          <label class="policy-label"
+            ><input type="checkbox" class="modal-checkbox" /><span
+              class="policy-span"
+              >Погоджуюся з розсилкою та приймаю
+              <a href="./" class="policy-link"> Умови договору</a></span
+            ></label
+          >
           <button type="submit" class="modal-btn">Відправити</button>
-      </form>
+        </form>
       </div>
-      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>

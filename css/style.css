@@ -385,9 +385,8 @@ a {
   line-height: 125%;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-
 }
-.portfolio-hero{
+.portfolio-hero {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -421,7 +420,6 @@ a {
   text-align: center;
   color: #212121;
   background-color: #f5f4fa;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
 }
 .portfolio-hero-list-nav {
   display: flex;
@@ -441,8 +439,10 @@ a {
 .portfolio-hero-btn:focus {
   background-color: #2196f3;
   color: #ffffff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 1px 0 rgba(0, 0, 0, 0.1);
 }
-.portfolio-hero-list-child{
+.portfolio-hero-list-child {
   border: 1px solid #eee;
 }
 .modal-text {
@@ -505,29 +505,28 @@ a {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  width:100% ;
+  width: 100%;
 }
 .modal-field {
   position: relative;
   margin-bottom: 10px;
 }
 .modal-input {
- padding-top: 12px; ;
-  padding-bottom:  12px; 
+  padding-top: 12px;
+  padding-bottom: 12px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-   width: 448px; 
+  width: 448px;
   /* height: 40px; */
   outline: none;
-   width: 100%; 
-   padding-left: 42px; 
+  width: 100%;
+  padding-left: 42px;
 }
-.modal-textarea{
+.modal-textarea {
   resize: none;
 }
-.modal-field:focus-within .modal-list_icon{
- fill: #2196f3;
-  
+.modal-field:focus-within .modal-list_icon {
+  fill: #2196f3;
 }
 .modal-field:focus-within .modal-input {
   border: 1px solid #2196f3;
