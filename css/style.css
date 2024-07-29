@@ -399,8 +399,8 @@ a {
   color: #757575;
 }
 .portfolio-hero-title {
-  padding-top: 94px;
-  padding-bottom: 34px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-weight: 700;
   font-size: 18px;
   line-height: 200%;
@@ -413,17 +413,15 @@ a {
   padding-bottom: 6px;
   padding-left: 20px;
   padding-right: 20px;
+  border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
   line-height: 162%;
   letter-spacing: 0.03em;
   text-align: center;
-}
-.portfolio-hero-btn {
   color: #212121;
-}
-.portfolio-hero-btn {
   background-color: #f5f4fa;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
 }
 .portfolio-hero-list-nav {
   display: flex;
@@ -443,6 +441,9 @@ a {
 .portfolio-hero-btn:focus {
   background-color: #2196f3;
   color: #ffffff;
+}
+.portfolio-hero-list-child{
+  border: 1px solid #eee;
 }
 .modal-text {
   font-family: var(--font-family);
