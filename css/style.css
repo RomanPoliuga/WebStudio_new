@@ -81,6 +81,11 @@ a {
   letter-spacing: 0.02em;
   line-height: 1.14;
 }
+.header-contacts-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
 .header-nav-link:hover,
 .header-contacts-link:hover,
 .header-nav-link:focus,
@@ -99,7 +104,12 @@ a {
   margin-right: auto;
   margin-left: auto;
   max-width: 1600px;
-  background-image: url("../images/background-hero.png");
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/background-hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -129,12 +139,37 @@ a {
 .hero-list {
   display: flex;
 }
+.features .hero-list-child::before {
+  display: block;
+  content: "";
+  background-image: url("../images/antenna.svg");
+  height: 120px;
+  background-color: #f5f4fa;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.features .hero-list-child.anttenna::before {
+  background-image: url("../images/antenna.svg");
+}
+.features .hero-list-child.clock::before {
+  background-image: url("../images/clock.svg");
+}
+.features .hero-list-child.diagram::before {
+  background-image: url("../images/diagram.svg");
+}
+.features .hero-list-child.astronaut::before {
+  background-image: url("../images/astronaut.svg");
+}
 .hero-list-child {
   margin-right: 30px;
 }
 .hero-btn {
   color: #ffffff;
   background-color: #5ab3fc;
+  border: o;
+  border-radius: 4px;
+  cursor: pointer;
 }
 .features {
   padding-top: 70px;
@@ -163,6 +198,17 @@ a {
   text-align: center;
   color: #212121;
 }
+/* .occupation-box{ 
+   position: relative; 
+  width:370px ; 
+   height: 294px; 
+ } */
+/* .occupation-overlay{ 
+   position: absolute; 
+   width:100% ; 
+   height: 70px; 
+   background-color: rgba(47, 48, 58, 0.8); 
+} */
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -367,6 +413,9 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
 }
 .form-img {
   margin-left: 10px;
@@ -377,6 +426,8 @@ a {
   width: 358px;
   height: 50px;
   background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
 }
 .form-input::placeholder {
   font-family: var(--font-family);
@@ -390,6 +441,9 @@ a {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.portfolio-box {
+  padding: 20px 24px;
+}
 .portfolio-hero-description {
   font-weight: 400;
   font-size: 16px;
@@ -398,8 +452,7 @@ a {
   color: #757575;
 }
 .portfolio-hero-title {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 18px;
   line-height: 200%;
@@ -516,10 +569,7 @@ a {
   padding-bottom: 12px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  width: 448px;
-  /* height: 40px; */
   outline: none;
-  width: 100%;
   padding-left: 42px;
 }
 .modal-textarea {
@@ -530,6 +580,9 @@ a {
 }
 .modal-field:focus-within .modal-input {
   border: 1px solid #2196f3;
+}
+.modal:hover .modal-list_icon-btn {
+  fill: #188ce8;
 }
 .close-btn {
   top: 8px;
@@ -548,11 +601,9 @@ a {
 .modal-textarea {
   padding: 12px;
   height: 120px;
-  width: 448px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   outline: none;
-  width: 100%;
 }
 .modal-field:focus-within .modal-textarea {
   border: 1px solid #2196f3;
@@ -575,7 +626,6 @@ a {
   margin-left: auto;
   margin-top: 30px;
   padding: 10px 52px;
-  border: #188ce8;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -591,4 +641,6 @@ a {
   color: #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
+  border: 0;
 }
