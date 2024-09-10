@@ -86,6 +86,19 @@ a {
   align-items: center;
   gap: 8px;
 }
+.header-nav-link.curent::after{
+  content: "";
+  background-color:#2196F3 ;
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+  display: block;
+  margin-top: 28px;
+  position: absolute;
+  }
+  .header-nav-link.curent{
+    color: #2196F3;
+  }
 .header-nav-link:hover,
 .header-contacts-link:hover,
 .header-nav-link:focus,
@@ -161,9 +174,6 @@ a {
 .features .hero-list-child.astronaut::before {
   background-image: url("../images/astronaut.svg");
 }
-.hero-list-child:nth-child(1),:nth-child(2) {
-  margin-right: 30px;
-}
 .hero-btn {
   color: #ffffff;
   background-color: #5ab3fc;
@@ -203,8 +213,9 @@ a {
 }
 .occupation-text {
   position: absolute;
-  top: 225px;
-  left: 125px;
+  left: 0;
+bottom: 0;
+width: 100%;
   padding-top: 27px;
   padding-bottom: 27px;
   font-family: var(--font-family);
@@ -599,7 +610,7 @@ a {
 .modal-field:focus-within .modal-input {
   border: 1px solid #2196f3;
 }
-.modal:hover .modal-list_icon-btn {
+.close-btn:hover .modal-list_icon-btn {
   fill: #188ce8;
 }
 .close-btn {
